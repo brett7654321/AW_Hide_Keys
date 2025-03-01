@@ -4,9 +4,7 @@ Install this application on a cloud server like railway.
 
 Call the application from your website.
 
-  <button onclick="fetchData()">Fetch Data</button>
-    <pre id="output"></pre>
-
+'''javascript
    <script>
               document.getElementById('sendButton').addEventListener('click', async function() {
                 try {
